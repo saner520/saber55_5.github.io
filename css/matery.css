@@ -555,6 +555,19 @@ header .go-back i {
     animation: rainbow 60s infinite;
 } */
 
+.bg-cover:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    backdrop-filter: blur(0.1vw);
+    background: rgba(0, 0, 0, 0.1);
+}
+
 .bg-cover:before,
 .bg-cover:after {
     position: absolute;
