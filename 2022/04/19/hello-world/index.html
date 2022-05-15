@@ -830,6 +830,33 @@
     </div>
 
     
+        <link rel="stylesheet" href="/saber55_5.github.io/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/saber55_5.github.io/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/saber55_5.github.io/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'c0915ec549cc9425ad9b',
+        clientSecret: '372217a70e87e707f030e022c84c1f9ec100fc1a',
+        repo: 'saber55_5.github.io',
+        owner: 'saner520',
+        admin: 'saner520',
+        id: 'md5',
+        distractionFreeMode: true  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
